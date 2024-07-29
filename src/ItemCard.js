@@ -7,6 +7,7 @@ const ItemCard = ({ item }) => {
 
     return (
         <Card className="item-card" style={{ backgroundImage: `url(${frameImage})` }}>
+            <img src="/images/puncture.png" alt="Puncture Image" className="hammer-image" />
             <CardContent>
                 <Typography variant="h6" component="div" className="item-title">
                     {item.name.toUpperCase()}
