@@ -1,0 +1,49 @@
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    background-color: unset !important
+}
+
+.item-card {
+    max-width: 400px;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.5);
+}
+
+.item-title {
+    color: #dca779;
+    font-weight: bold;
+    text-align: center;
+}
+
+.item-subtitle {
+    color: #FFD700;
+    text-align: center;
+}
+
+.item-section {
+    border-top: 1px solid #FFD700;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item-text {
+    margin-bottom: 5px;
+    color: #bab0a3;
+}
+
+.item-flavor {
+    font-style: italic;
+}
+
+.item-class {
+    color: #FFD700;
+}
+
+.item-boss-drop {
+    color: #FFD700;
+    margin-top: 10px;
+}

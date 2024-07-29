@@ -1,0 +1,799 @@
+[
+    {
+        "id": "100000-steps",
+        "boss_drop": [
+            "The Beast in the Ice",
+            "Echo of Varshan"
+        ],
+        "flavor": "\"While many Barbarians remained in the Dreadlands, small groups from the Oxen, Crane and Bear tribes instead chose to search the land for a new home.\" - A History of the Children of Bul-Kathos",
+        "affixes": [
+            "+{{x}} Maximum Evade Charges",
+            "+{{x}} Dexterity",
+            "+{{x}}% Damage when Swapping Weapons",
+            "+{{x}}% Movement Speed",
+            "+{{x}} to Ground Stomp (Barbarian Only)"
+        ],
+        "class": "barbarian",
+        "slot": "boots",
+        "power": "After gaining the final damage bonus from the Walking Arsenal Key Passive, you automatically cast Ground Stomp and gain {{x}} Fury. This cannot happen more than once every {{x}} seconds.",
+        "name": "100,000 Steps",
+        "type": "armor",
+        "mythic": false
+    },
+    {
+        "id": "ahavarion",
+        "slot": "staff",
+        "flavor": "\"The angel Lycander left us a portion of her power in this spear. It is all the proof I need that she watches over us still.\" - Oracle Argoysni",
+        "affixes": [
+            "+{{x}}% Critical Strike Chance",
+            "+{{x}}% Attack Speed",
+            "+{{x}}% Damage",
+            "Lucky Hit: Up to a +{{x}}% Chance to Stun for {{x}} Seconds"
+        ],
+        "power": "Gain a random Shrine effect for {{x}} seconds after killing an Elite enemy. Can only occur once every {{x}} seconds.",
+        "name": "Ahavarion, Spear of Lycander",
+        "type": "weapon",
+        "mythic": true
+    },
+    {
+        "id": "airidahs-inexorable-will",
+        "flavor": "\"When I was born, I breathed in the wind and the storm and they gave me life. When I die, I will breath out, and return that gift to the skies.\" - Journal excerpt",
+        "affixes": [
+            "+{{x}}% Damage to Close Enemies",
+            "+{{x}}% Willpower",
+            "+{{x}}% Lucky Hit Chance",
+            "+{{x}}% Ultimate Cooldown Reduction"
+        ],
+        "class": "druid",
+        "boss_drop": [
+            "Echo of Carshan"
+        ],
+        "slot": "ring",
+        "power": "When casting an Ultimate Skill and again {{x}} seconds after, you Pull in Distant enemies and deal {{x}} Physical damage to them. This damage is increased by {{x}}% per 1 point of Willpower you have.",
+        "name": "Airidah's Inexorable Will",
+        "type": "accessory",
+        "mythic": false
+    },
+    {
+        "id": "ancients-oath",
+        "flavor": "\"Weapons wielded by the fiercest warriors often catch the eye of the Ancient spirits. If the wielder is worthy, the spirits may bless the steel with their strength.\" - Gerti, Oxen Tribe Forgemaster",
+        "class": "barbarian",
+        "affixes": [
+            "{{x}}% Damage to Close Enemies",
+            "{{x}}% Vulnerable Damage",
+            "{{x}}% Damage while Berserking",
+            "{{x}} to Steel Grasp"
+        ],
+        "power": "Steel Grasp launches {{x}} additional chains. Enemies hit by Steel Grasp take {{x}}% increased damage from you for 5 seconds.",
+        "name": "Ancients' Oath",
+        "slot": "axe",
+        "type": "weapon",
+        "mythic": false
+    },
+    {
+        "id": "andariels-visage",
+        "flavor": "The horrific whispers of the Maiden of Anguish flicker through your mind, pushing you ever closer to madness...",
+        "slot": "helm",
+        "affixes": [
+            "+{{x}} All Stats",
+            "+{{x}} Attack Speed",
+            "+{{x}} Life Steal",
+            "{{x}}% Poison Resistance"
+        ],
+        "power": "Lucky Hit: Up to a {{x}}% chance to trigger a poison nova that applies {{x}} Poisoning damage over {{x}} seconds to enemies in the area.",
+        "name": "Andariel's Visage",
+        "type": "armor",
+        "mythic": true
+    },
+    {
+        "id": "ashearas-khanjar",
+        "flavor": "When Caldeum's gates closed, Asheara led her Iron Wolves out of the city knowing full well they would never return. Instead they roamed Kehjistan pledging their blades to any who were in need.",
+        "name": "Asheara's Khanjar",
+        "power": "Hits with this weapon increase your Attack Speed by {{x}}% for {{x}} seconds, up to {{x}}%.",
+        "slot": "dagger",
+        "type": "weapon",
+        "mythic": false
+    },
+    {
+        "id": "axial-conduit",
+        "class": "sorcerer",
+        "name": "Axial Conduit",
+        "season": 5,
+        "type": "armor",
+        "slot": "pants",
+        "mythic": false,
+        "flavor": "\"Do not confuse your manipulation of lightning as control. The azure flame is its own master and needs no hand to wield it. You are merely a conduit for its chaos.\" -Ascribed to the mage Woh"
+    },
+    {
+        "id": "azurewrath",
+        "flavor": "The ancient runeblade of the angel Izual, Azurewrath was miraculously spared the corruption that consumed its master.",
+        "affixes": [
+            "{{x}}% Attack Speed",
+            "{{x}}% Core Damage",
+            "{{x}}% Non-Physical Damage",
+            "{{x}}% Damage to Crowd Controlled Enemies"
+        ],
+        "power": "Lucky Hit: Your Skills have up to a {{x}}% chance to Freeze enemies for {{x}} seconds and deal {{x}} Cold damage to them.",
+        "name": "Azurewrath",
+        "slot": "sword",
+        "type": "weapon",
+        "mythic": false
+    },
+    {
+        "id": "banished-lords-talisman",
+        "flavor": "\"His name has been lost to history, but to have been exiled from a land as cursed as Hawezar, his deeds must have been truly depraved.\" - Scholar's Notes",
+        "slot": "amulet",
+        "name": "Banished Lords Talisman",
+        "type": "accessory",
+        "mythic": false
+    },
+    {
+        "id": "battle-trance",
+        "slot": "amulet",
+        "flavor": "\"The change that overtook my brother in battle was terrifying. His eyes turned hard like diamonds, and the way he moved... it was like he was dancing to music only he could hear.\" - Captain Dervin",
+        "name": "Battle Trance",
+        "type": "accessory",
+        "mythic": false
+    },
+    {
+        "id": "beastfall-boots",
+        "flavor": "\"Genai grew proud and fond of boasting of her hunting prowess. She claimed she was fast enough to catch even the spirit Leraye, who cursed her for such an insult.\" - Fable of Genai's Twenty Trials.",
+        "name": "Beastfall Boots",
+        "slot": "boots",
+        "type": "armor",
+        "mythic": false
+    },
+    {
+        "id": "black-river",
+        "type": "",
+        "name": "Black River",
+        "mythic": false,
+        "flavor": "\"The scrolls describe a river of tar that separated the living from the land of the dead. Any unfortunate soul who tried to cross would be dragged down into oblivion.\" - Notes of Scholar Kamien",
+        "class": "barbarian"
+    },
+    {
+        "id": "blood-artisans-cuirass",
+        "type": "",
+        "mythic": false,
+        "name": "Blood Artisans Cuirass",
+        "flavor": "\"The infamous Necromancer Gaza-Thul's mastery over blood magic was indisputable. Many suspect that upon his death, his skin was used to fashion this eldritch armor.\" - Barrett's Book of Implements"
+    },
+    {
+        "id": "blood-moon-breeches",
+        "type": "",
+        "mythic": false,
+        "name": "Blood Moon Breeches",
+        "flavor": "A naturally occurring curiosity, the blood moon persists as a sign of woe for the most superstitious Zakarum faithful. Children born under it are often considered cursed and cast out, lest it spread."
+    },
+    {
+        "id": "bloodless-scream",
+        "type": "",
+        "mythic": false,
+        "name": "Bloodless Scream",
+        "flavor": "\"My companion swung her odd weapon in a wide arc, and our pursuer stopped short. The look of horror on his face as his body fell to pieces will haunt me forever.\" - The Ebon Pages, Canto II, Verse XI",
+        "class": "necromancer"
+    },
+    {
+        "id": "blue-rose",
+        "boss_drop": [
+            "Duriel, King of Maggots"
+        ],
+        "class": "sorcerer",
+        "name": "Blue Rose",
+        "mythic": false,
+        "flavor": "\"Her lover's spirit faded, and in her sorrow she wept frozen tears. Where they fell, roses of the purest ice would blossom each winter.\" - Greenslade's Tales, Chapter 7: \"The Myth of Irina Coldheart\"",
+        "type": "accessory",
+        "slot": "ring"
+    },
+    {
+        "id": "condemnation",
+        "name": "Condemnation",
+        "mythic": false,
+        "flavor": "\"I've never seen such ruthless butchery. He deserves to be be shipped off to die in the swamps with the rest of the godless murderers.\" - Witness to the murder of Sergeant Walcot",
+        "class": "rogue",
+        "type": "weapon",
+        "slot": "dagger"
+    },
+    {
+        "id": "cowl-of-the-nameless",
+        "mythic": false,
+        "name": "Cowl of the Nameless",
+        "slot": "helm",
+        "type": "armor",
+        "class": "rogue",
+        "flavor": "\"He is banished from the Guild, his name stricken from the Book. His punishment is to never have been.\" - Excerpt from a burned parchment",
+        "affixes": [
+            "{{x}}% Damage Reduction from Close Enemies",
+            "{{x}}% Cooldown Reduction",
+            "+{{x}}% Crowd Control Duration",
+            "+{{x}} to Imbuement Skills"
+        ],
+        "power": "You gain {{x}}% increased Lucky Hit Chance against Crowd Controlled enemies."
+    },
+    {
+        "id": "cruors-embrace",
+        "mythic": false,
+        "name": "Cruor's Embrace",
+        "slot": "gloves",
+        "type": "armor"
+    },
+    {
+        "id": "deathless-visage",
+        "type": "",
+        "name": "Deathless Visage",
+        "mythic": false
+    },
+    {
+        "id": "deathspeakers-pendant",
+        "mythic": false,
+        "name": "Deathspeaker's Pendant",
+        "slot": "amulet",
+        "type": "accessory"
+    },
+    {
+        "id": "dolmen-stone",
+        "type": "",
+        "name": "Dolmen Stone",
+        "mythic": false,
+        "class": "druid",
+        "flavor": "As the hateful mob beat on his door, he gripped the pulsing shard tightly and screamed for calm. When he opened his eyes, all that greeted him was silence and the blood-smeared ruins of his cottage."
+    },
+    {
+        "id": "doombringer",
+        "flavor": "Whenever this ancient sword has reappeared throughout history, it portends a time of great strife, as well as a devastating loss of life.",
+        "affixes": [
+            "+{{x}} Critical Strike Damage",
+            "+{{x}} Core Skill Damage",
+            "+{{x}}% Damage",
+            "Lucky Hit: Up to a {{x}}% Chance to Heal +{{x}} Life",
+            "{{x}} Maximum Life"
+        ],
+        "power": "Lucky Hit: Up to a {{x}}% chance to deal {{x}} Shadow damage to surrounding enemies and reduce their damage done by {{x}}% for {{x}} seconds.",
+        "name": "Doombringer",
+        "slot": "sword",
+        "type": "weapon",
+        "mythic": true
+    },
+    {
+        "id": "eaglehorn",
+        "type": "",
+        "mythic": false,
+        "name": "Eaglehorn"
+    },
+    {
+        "id": "earthbreaker",
+        "type": "",
+        "mythic": false,
+        "name": "Earthbreaker"
+    },
+    {
+        "id": "ebonpiercer",
+        "season": 4,
+        "name": "Ebonpiercer",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "esadoras-overflowing-cameo",
+        "boss_drop": [
+            "Lord Zir"
+        ],
+        "name": "‍Esadora's Overflowing Cameo",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "esus-heirloom",
+        "type": "",
+        "mythic": false,
+        "name": "Esu's Heirloom"
+    },
+    {
+        "id": "eyes-in-the-dark",
+        "type": "",
+        "mythic": false,
+        "name": "Eyes in the Dark"
+    },
+    {
+        "id": "fields-of-crimson",
+        "name": "Fields of Crimson",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "fists-of-fate",
+        "flavor": "\"Will you let fear cheat you, or will you risk everything to find understanding? After all, death is simply the coin with which we purchase life.\" - Zurke",
+        "slot": "hands",
+        "affixes": [
+            "Lucky Hit: Up to a {{x}}% Chance to Heal +{{x}} Life",
+            "Lucky Hit: Up to a {{x}}% Chance to Restore +{{x}}% Primary Resource",
+            "+{{x}}% Lucky Hit Chance with Immobilize Damage",
+            "+{{x}}% Lucky Hit Chance with Daze Damage"
+        ],
+        "power": "Your attacks randomly deal {{x}}% to {{x}}% of their normal damage.",
+        "name": "Fists of Fate",
+        "mythic": false,
+        "type": "armor"
+    },
+    {
+        "id": "flamescar",
+        "name": "Flamescar",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "flameweaver",
+        "season": 4,
+        "name": "flameweaver",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "fleshrender",
+        "type": "",
+        "mythic": false,
+        "name": "Fleshrender"
+    },
+    {
+        "id": "flickerstep",
+        "mythic": false,
+        "name": "Flicketstep",
+        "flavor": "\"Considered a failure by their creator, it wasn't until the assassination of an \"untouchable\" Caldeum noble that these boots' true power was understood.\" - Barrett's Book of Implements",
+        "power": "Each enemy you Evade through reduces your active Ultimate Cooldown by {{x}} seconds, up to {{x}} seconds.",
+        "slot": "boots",
+        "type": "armor",
+        "affixes": [
+            "+{{x}}% Movement Speed",
+            "+{{x}} All Stats",
+            "{{x}}% Damage Reduction from Close Enemies",
+            "+{{x}}% Ultimate Damage"
+        ]
+    },
+    {
+        "id": "fractured-winterglass",
+        "season": 4,
+        "name": "‍Fractured Winterglass",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "frostburn",
+        "flavor": "A touch so frigid it stops the heart and chills the very soul.",
+        "slot": "hands",
+        "affixes": [
+            "+{{x}}% Critical Strike Chance",
+            "+{{x}}% Cold Damage",
+            "+{{x}}% Freeze Duration",
+            "Lucky Hit: Up to a {{x}}% Chance to Restore +{{x}}% Primary Resource"
+        ],
+        "power": "Lucky Hit: Up to a {{x}}% chance to Freeze enemies for {{x}} seconds.",
+        "name": "Frostburn",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "gloves-of-the-illuminator",
+        "type": "",
+        "mythic": false,
+        "name": "Gloves of the Illuminator"
+    },
+    {
+        "id": "godslayer-crown",
+        "type": "",
+        "mythic": false,
+        "name": "Godslayer Crown"
+    },
+    {
+        "id": "gohrs-devastating-grips",
+        "type": "",
+        "mythic": false,
+        "name": "Gohr's Devastating Grips"
+    },
+    {
+        "id": "grasp-of-shadow",
+        "type": "",
+        "mythic": false,
+        "name": "Grasp of Shadow"
+    },
+    {
+        "id": "greatstaff-of-the-crone",
+        "type": "",
+        "mythic": false,
+        "name": "Greatstaff of the Crone"
+    },
+    {
+        "id": "greaves-of-the-empty-tomb",
+        "type": "",
+        "mythic": false,
+        "name": "Greaves of the Empty Tomb"
+    },
+    {
+        "id": "harlequin-crest",
+        "flavor": "\"This headdress was once worn by an assassin disguised as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king's entire lineage.\" - The Fall of House Aston",
+        "slot": "helm",
+        "affixes": [
+            "+{{x}}% Life",
+            "+{{x}}% Cooldown Reduction",
+            "+{{x}}% Crafting Material Drop Rate",
+            "+{{x}} All Stats"
+        ],
+        "power": "Gain {{x}}% Damage Reduction. In addition, gain +{{x}} Ranks to all Skills.",
+        "name": "Harlequin Crest",
+        "mythic": true,
+        "type": "armor"
+    },
+    {
+        "id": "hellhammer",
+        "boss_drop": [
+            "The Beast in the Ice"
+        ],
+        "flavor": "The demon prince Ikonoth slew hundreds of the Heavenly Host with this infernal hammer before falling to none other than the Archangel Imperius himself.",
+        "name": "Hellhammer",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "howl-from-below",
+        "type": "",
+        "mythic": false,
+        "name": "Howl from Below"
+    },
+    {
+        "id": "hunters-zenith",
+        "mythic": false,
+        "name": "Hunters Zenith",
+        "type": "accessory",
+        "slot": "ring",
+        "flavor": "By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-Géar! For Scosglen! - Nafain, during the Days of Ash",
+        "class": "druid"
+    },
+    {
+        "id": "iceheart-brais",
+        "type": "",
+        "mythic": false,
+        "name": "Iceheart Brais"
+    },
+    {
+        "id": "insatiable-fury",
+        "type": "",
+        "mythic": false,
+        "name": "Insatiable Fury"
+    },
+    {
+        "id": "lidless-wall",
+        "type": "",
+        "name": "Lidless Wall",
+        "mythic": false
+    },
+    {
+        "id": "mad-wolfs-glee",
+        "name": "Mad Wolf's Glee",
+        "slot": "chest",
+        "type": "armor",
+        "mythic": false
+    },
+    {
+        "id": "melted-heart-of-selig",
+        "flavor": "\"Do not allow your passions to become obsessions. Fuel the fire that burns within you, but it is madness to allow yourself to become ash to please an uncaring universe.\" - Last words of Master Selig",
+        "slot": "amulet",
+        "affixes": [
+            "{{x}}% Resistance to All Elements",
+            "{{x}} All Stats",
+            "+{{x}}% Core Skill Damage",
+            "+{{x}}% Damage while Healthy",
+            "{{x}}% Resource Generation"
+        ],
+        "power": "Gain +{{x}}% Maximum Resource. In addition, when you take damage, drain {{x}} Resource for every {{x}}% of Life you would have lost instead.",
+        "name": "Melted Heart of Selig",
+        "mythic": true,
+        "type": "accessory"
+    },
+    {
+        "id": "mothers-embrace",
+        "flavor": "\"Every tome, every scroll, every book in this temple produces the same answer. The only being willing to stand against the Eternal Conflict, against the Prime Evils, was Lilith.\" - Elias",
+        "slot": "ring",
+        "affixes": [
+            "{{x}}% Fire Resistance",
+            "{{x}}% Cold Resistance",
+            "+{{x}}% Critical Strike Chance",
+            "+{{x}}% Critical Strike Damage",
+            "+{{x}}% Overpower Damage",
+            "+{{x}}% Core Skill Damage"
+        ],
+        "power": "If a Core Skill hits {{x}} or more enemies, {{x}}% of the Resource cost is refunded.",
+        "name": "Mother's Embrace",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "mutilator-plate",
+        "type": "",
+        "mythic": false,
+        "name": "Mutilator Plate"
+    },
+    {
+        "id": "overkill",
+        "type": "",
+        "mythic": false,
+        "name": "Overkill"
+    },
+    {
+        "id": "paingorgers-gauntlets",
+        "type": "",
+        "mythic": false,
+        "name": "Paingorger's Gauntlets"
+    },
+    {
+        "id": "penitent-greaves",
+        "flavor": "Remorseful devotees of the Cathedral of Light must undertake a grueling pilgrimage, journeying across the frigid glacier known as the Serac Rapture. Only then may their gravest sins be forgiven.",
+        "slot": "boots",
+        "affixes": [
+            "Evade Briefly Grants +{{x}}% Movement Speed",
+            "+{{x}}% Movement Speed",
+            "+{{x}}% Crowd Control Duration",
+            "+{{x}}% Bleeding Duration",
+            "{{x}}% Cold Resistance"
+        ],
+        "power": "You leave behind a trail of frost that Chills enemies. You deal {{x}}% more damage to Chilled enemies.",
+        "name": "Penitent Greaves",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "rage-of-harrogath",
+        "type": "",
+        "mythic": false,
+        "name": "Rage of Harrogath"
+    },
+    {
+        "id": "raiment-of-the-infinite",
+        "type": "",
+        "mythic": false,
+        "name": "Raiment of the Infinite"
+    },
+    {
+        "id": "rakanoths-wake",
+        "mythic": false,
+        "name": "Rakanoths Wake"
+    },
+    {
+        "id": "ramaladnis-magnum-opus",
+        "type": "",
+        "mythic": false,
+        "name": "Ramaladnis Magnum Opus"
+    },
+    {
+        "id": "razorplate",
+        "flavor": "Crafted by the cannibal Armoda, each piece of this interlocking armor has been sharpened into a knife's edge. Even a century after death, the plate remained on her corpse, unable to be removed safely.",
+        "slot": "chest",
+        "power": "Gain {{x}} Thorns",
+        "name": "Razorplate",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "ring-of-mendeln",
+        "type": "",
+        "mythic": false,
+        "name": "Ring of Mendeln"
+    },
+    {
+        "id": "ring-of-red-furor",
+        "type": "",
+        "mythic": false,
+        "name": "Ring of red Furor"
+    },
+    {
+        "id": "ring-of-starless-skies",
+        "flavor": "\"Yours is the power to pluck the stars from the heavens with the ease of a child gathering fruit from the bough.\" - Unknown",
+        "slot": "ring",
+        "affixes": [
+            "{{x}}% Lightning Resistance",
+            "{{x}}% Shadow Resistance",
+            "{{x}} All Stats",
+            "+{{x}}% Lucky Hit Chance",
+            "+{{x}}% Damage to Crowd Controlled Enemies",
+            "+{{x}}% Core Skill Damage"
+        ],
+        "power": "Each consecutive Core Skill cast reduces the Resource cost of your next Core Skill by {{x}}%, up to a maximum of {{x}}%.",
+        "name": "Ring of Starless Skies",
+        "mythic": true,
+        "type": "accessory"
+    },
+    {
+        "id": "ring-of-the-ravenous",
+        "type": "",
+        "mythic": false,
+        "name": "Ring of the Ravenous"
+    },
+    {
+        "id": "ring-of-the-sacrilegious-soul",
+        "type": "",
+        "mythic": false,
+        "name": "Ring of the Sacrilegious Soul"
+    },
+    {
+        "id": "saboteurs-signet",
+        "type": "",
+        "mythic": false,
+        "name": "Saboteurs Signet"
+    },
+    {
+        "id": "scoundrels-kiss",
+        "type": "",
+        "mythic": false,
+        "name": "Scoundrels Kiss"
+    },
+    {
+        "id": "scoundrels-leathers",
+        "name": "Scoundrel's Leathers",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "skyhunter",
+        "type": "",
+        "name": "Skyhunter",
+        "mythic": false
+    },
+    {
+        "id": "soulbrand",
+        "type": "",
+        "name": "Soulbrand",
+        "mythic": false
+    },
+    {
+        "id": "staff-of-endless-rage",
+        "mythic": false,
+        "name": "Staff of Endless Rage",
+        "type": "weapon",
+        "slot": "staff"
+    },
+    {
+        "id": "staff-of-lam-esen",
+        "type": "",
+        "mythic": false,
+        "name": "Staff of Lam Esen"
+    },
+    {
+        "id": "starfall-coronet",
+        "type": "",
+        "mythic": false,
+        "name": "Starfall Coronet"
+    },
+    {
+        "id": "storms-companion",
+        "type": "",
+        "name": "Storms Companion",
+        "mythic": false
+    },
+    {
+        "id": "tal-rashas-iridescent-loop",
+        "name": "Tal Rasha's Iridescent Loop",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "tassets-dawning-sky",
+        "name": "Tassets of the Dawning Sky",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "temerity",
+        "flavor": "\"The revelation that master tailor Callas was in fact a witch only served to further fuel the desire for her uniquely enchanted legwraps.\" - Barrett's Book of Implements",
+        "slot": "legs",
+        "affixes": [
+            "While Injured, Your Potion Also Grants {{x}}% Movement Speed for {{x}} Seconds",
+            "+{{x}} Potion Charges",
+            "+{{x}}% Potion Drop Rate",
+            "Lucky Hit: Up to a {{x}}% Chance to Heal +{{x}} Life",
+            "+{{x}}% Healing Received"
+        ],
+        "power": "Effects that Heal you beyond {{x}}% Life grant you a Barrier up to {{x}}% of your Maximum Life that lasts for {{x}} seconds.",
+        "name": "Temerity",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "tempest-roar",
+        "type": "",
+        "name": "Tempest Roar",
+        "mythic": false
+    },
+    {
+        "id": "the-basilisk",
+        "season": "5",
+        "type": "weapon",
+        "slot": "staff",
+        "mythic": false,
+        "name": "The Basilisk"
+    },
+    {
+        "id": "the-butchers-cleaver",
+        "flavor": "A nightmarish amalgam of blood, bone and steel, this axe is as horrific, and as deadly, as its creator.",
+        "affixes": [
+            "+{{x}}% Damage to Healthy Enemies",
+            "+{{x}}% Damage to Crowd Controlled Enemies",
+            "+{{x}}% Critical Strike Damage",
+            "+{{x}}% Critical Strike Chance Against Injured Enemies",
+            "+{{x}}% Damage to Injured Enemies"
+        ],
+        "power": "Lucky Hit: When you Critically Strike an enemy you have up to a {{x}}% chance to Fear and Slow them by {{x}}% for {{x}} seconds.",
+        "name": "The Butcher's Cleaver",
+        "mythic": false,
+        "slot": "axe",
+        "type": "weapon"
+    },
+    {
+        "id": "the-grandfather",
+        "flavor": "An unbroken lineage of unwavering strength.",
+        "affixes": [
+            "+{{x}} Critical Strike Damage",
+            "+{{x}} Damage",
+            "+{{x}} Life",
+            "{{x}} All Stats",
+            "Ignores Durability Loss"
+        ],
+        "power": "Increases your Critical Strike Damage by {{x}}%.  The other properties on this weapon can roll higher than normal.",
+        "name": "The Grandfather",
+        "mythic": true,
+        "slot": "sword",
+        "type": "weapon"
+    },
+    {
+        "id": "the-mortacrux",
+        "mythic": false,
+        "name": "The Mortacrux"
+    },
+    {
+        "id": "the-oculus",
+        "type": "",
+        "mythic": false,
+        "name": "The Oculus"
+    },
+    {
+        "id": "the-third-blade",
+        "mythic": false,
+        "name": "The Third Blade"
+    },
+    {
+        "id": "the-umbracrux",
+        "mythic": false,
+        "name": "The Umbracrux"
+    },
+    {
+        "id": "tibaults-will",
+        "name": "Tibault's Will",
+        "type": "",
+        "mythic": false
+    },
+    {
+        "id": "tuskhelm-of-the-joritz-the-mighty",
+        "type": "",
+        "mythic": false,
+        "name": "Tuskhelm of the Joritz the Mighty"
+    },
+    {
+        "id": "twin-strikes",
+        "type": "",
+        "mythic": false,
+        "name": "Twin Strikes"
+    },
+    {
+        "id": "tyraels-might",
+        "affixes": [
+            "+{{x}}% Resistance to All Elements",
+            "+{{x}}% Maximum Resistance to All Elements",
+            "+{{x}} All Stats",
+            "{{x}}% Damage Reduction"
+        ],
+        "flavor": "\"Thus Tyrael, a perfect aspect of Justice, came to be. None were more vehement against the forces of hell. All demonic entities learned to shudder at Justice's might.\" -The Books of Jarl, Volume I",
+        "slot": "chest",
+        "power": "While at full Life, your Skills unleash a divine barrage dealing {{x}} damage.",
+        "name": "Tyrael's Might",
+        "mythic": true,
+        "season": 4,
+        "type": "armor"
+    }
+]
