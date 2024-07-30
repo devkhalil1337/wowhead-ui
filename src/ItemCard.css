@@ -4,6 +4,7 @@
 
 .item-card {
     max-width: 400px;
+    min-height: 400px;
     margin: 20px auto;
     background-size: cover;
     background-position: center;
@@ -27,10 +28,24 @@
 }
 
 .item-section {
-    border-top: 1px solid #FFD700;
+  
     padding-top: 10px;
     margin-bottom: 10px;
 }
+
+.border{
+    border-top: 1px solid #FFD700;
+
+}
+.item-section:first-of-type::before {
+    content: "";
+    position: absolute;
+    top: -1px; /* Align with the top border */
+    left: 0;
+    width: 50%; /* Adjust the length as needed */
+    border-top: 2px solid #FFD700; /* Adjust the thickness and color as needed */
+}
+
 
 .item-text {
     margin-bottom: 5px;
@@ -48,6 +63,12 @@
 .item-boss-drop {
     color: #FFD700;
     margin-top: 10px;
+    font-size: 11px !important;
+}
+.item-para{
+    margin-bottom: 5px;
+    color: #bab0a3;
+    font-size: 12px !important;
 }
 
 .hammer-image {
@@ -60,4 +81,45 @@
     right: 10px;
     z-index: 1;
     /* Ensure it appears above the card content */
+}
+
+
+
+/* Applying Jost font */
+.font-jost {
+    font-family: 'Jost', sans-serif;
+}
+
+.custom-font {
+    font-family: 'Playfair Display', serif !important
+    /* Other styles */
+}
+
+.item-section {
+    list-style: none; /* Remove default list style */
+    padding-left: 7px; /* Ensure there's space for the custom bullet */
+    position: relative;
+}
+
+.item-section > li {
+    position: relative;
+    padding-left: 13px; /* Ensure there's space for the custom bullet */
+}
+
+.item-section > li::before {
+    content: " ";  
+    width: 3px; /* Width of the bullet */  
+    height: 3px; /* Height of the bullet */  
+    transform: rotate(45deg); /* Rotating the rectangle */  
+    border: 1px solid #bab0a3; /* Set color for the bullet */  
+    position: absolute; /* Positioning the bullet as absolute. It will be relative to the li item */  
+    left: 0; /* Stick the bullet to the left side */  
+    top: 9px; /* Align the bullet with the first line of li text */
+}
+
+
+li{
+    font-size: 12px !important;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
