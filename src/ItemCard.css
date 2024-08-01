@@ -2,38 +2,38 @@
     background-color: unset !important;
 }
 
-.item-card {
-    max-width: 420px;
-    min-height: 420px;
-
-    background-size: cover;
+.outer-card {
+    width: 310px; /* Set the desired width */
+    height: 520px; /* Set the desired height to make it rectangular */
+    /* background-size: contain; */
     background-position: center;
     color: white;
     padding: 10px;
-    /* border-radius: 10px; */
-    box-shadow: 0 0 15px rgba(255, 69, 0, 0.5) !important;
-    position: relative;
-    /* Ensure relative positioning */
-}
-.outer-card {
-    /* max-width: 400px;
-    min-height: 400px; */
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 20px;
-    /* border-radius: 10px; */
     margin: 20px;
     position: relative;
-    /* Ensure relative positioning */
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.item-card {
+    width: 310px; /* Set the desired width */
+    height: 520px; /* Set the desired height to make it rectangular */
+    /* background-size: contain;  */
+    background-position: center;
+    color: white;
+    /* padding: 5px; */
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.5) !important;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
 }
 
 .item-title {
     color: #dca779;
     font-weight: bold;
     max-width: 70%;
-    padding-left: 28px;
-    padding-top: 12px;
+    padding-left: 40px;
+    padding-top: 30px;
 }
 
 .item-subtitle {
@@ -97,6 +97,7 @@
     color: #FFD700;
     margin-top: 10px;
     font-size: 11px !important;
+    padding-right: 30px;
 }
 .item-para{
     margin-bottom: 5px;
@@ -111,8 +112,8 @@
 
     /* Adjust height as needed */
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 8px;
+    right: 0px;
     z-index: 1;
     /* Ensure it appears above the card content */
 }
