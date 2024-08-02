@@ -45,6 +45,7 @@ const ItemCard = ({ item }) => {
                 )}
                 {item.flavor && (
                     <Box className="item-section item-flavor">
+                        <img src="/file.png" alt="icon"  className='custom-icon' style={{ marginRight: '8px' }} />
                         <Typography variant="body2" component="div" className="item-para custom-font3" align='left'>
                             {item.flavor}
                         </Typography>

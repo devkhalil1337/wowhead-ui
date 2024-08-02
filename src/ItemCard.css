@@ -77,9 +77,17 @@
     width: 50%; /* Adjust the length as needed */
     /* border-top: 2px solid #FFD700;  */
 }
+.item-flavor{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
 
-
-
+.custom-icon{
+    flex: 1;
+    width: 15px;
+    height: 15px;
+}
 .item-text {
     margin-bottom: 5px;
     color: #bab0a3;
@@ -100,6 +108,7 @@
     padding-right: 30px;
 }
 .item-para{
+    
     margin-bottom: 5px;
     color: #bab0a3;
     font-size: 12px !important;
