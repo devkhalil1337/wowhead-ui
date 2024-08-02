@@ -111,7 +111,7 @@
     
     margin-bottom: 5px;
     color: #bab0a3;
-    font-size: 12px !important;
+    font-size: 11px !important;
 }
 
 .hammer-image {
@@ -168,6 +168,12 @@
     list-style: none; /* Remove default list style */
     padding-left: 21px; /* Ensure there's space for the custom bullet */
     padding-right: 21px; /* Ensure there's space for the custom bullet */
+    position: relative;
+}
+.item-section2 {
+    list-style: none; /* Remove default list style */
+    padding-left: 17px; /* Ensure there's space for the custom bullet */
+    padding-right: 25px; /* Ensure there's space for the custom bullet */
     position: relative;
 }
 
